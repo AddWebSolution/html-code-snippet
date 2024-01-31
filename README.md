@@ -4,6 +4,7 @@ The code is organized into the following sections:
 - Features
 - Explore New and Popular Styles
 - New Arrivals
+  
 To initiate the project, kindly follow the steps outlined below.
 
 
