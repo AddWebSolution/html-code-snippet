@@ -3,11 +3,11 @@ This repository comprises HTML/CSS code for an online shopping platform, skillfu
 
 The code is organized into the following sections:
 
--- Features
--- Explore New and Popular Styles
--- New Arrivals
+- Features
+- Explore New and Popular Styles
+- New Arrivals
 
-# Gulp with TailwindCSS Starter Kit
+# Gulp with TailwindCSS
 
 Gulp with TailwindCSS v3 Starter Kit
 
