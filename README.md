@@ -7,6 +7,9 @@ The code is organized into the following sections:
   
 To initiate the project, kindly follow the steps outlined below.
 
+# TailWindCSS
+Tailwind CSS takes a utility-first approach, providing a set of low-level utility classes that can be composed to build designs. This approach allows for flexibility and customization, making it easier to create unique and responsive layouts.
+
 
 # Gulp with TailwindCSS
 
