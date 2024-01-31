@@ -9,7 +9,7 @@ The code is organized into the following sections:
 
 # Gulp with TailwindCSS
 
-Gulp with TailwindCSS v3 Starter Kit
+Gulp with TailwindCSS v3
 
 ## Features
 
