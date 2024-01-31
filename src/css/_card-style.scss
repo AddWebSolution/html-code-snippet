@@ -1,0 +1,122 @@
+.card-style-one {
+  .card-main-wrap {
+    @apply flex items-center justify-between mb-10.8;
+
+    &__title {
+      @apply relative pb-2 text-xl font-bold uppercase font-secondary lg:text-2xl after:absolute after:left-0 after:bottom-0 after:h-1 after:w-800 after:bg-blue;
+    }
+
+    &__btn {
+      @apply hidden btn btn-arrow lg:block font-secondary;
+    }
+  }
+
+  .card-wrap {
+    @apply relative grid grid-cols-2 gap-4 xl:gap-7 js__four-column-product-slider xl:grid-cols-4 md:grid-cols-3;  
+
+    .card {
+      @apply block slide-item relative overflow-hidden;
+
+      &:hover {
+        .card-detail {
+          @apply shadow-menuShadow;
+        }
+
+      }
+      &:hover {
+        .card-hover {
+          @apply bottom-0;  
+        }
+      }
+
+      .img-wrap {
+        @apply relative xl:h-[412px] h-[40vw];
+
+        .card-img {
+          @apply object-top img-object-cover rounded-t-md;
+        }
+      }
+
+      .card-detail {
+        @apply px-3 py-4 pt-4 xl:px-6 xl:pb-6;
+
+        &__label {
+          @apply text-blue capitalize md:text-s text-xss xl:leading-[24px] leading-[11px] font-medium xl:mb-2 md:mb-4 mb-2 inline-block ;
+        }
+        &__item {
+          @apply font-bold capitalize text-s md:text-lg xl:text-xl font-primary;
+        }
+        &__price {
+          @apply text-s leading-[28px] mt-[14px] mb-3 font-secondary font-semibold xl:leading-[20px];
+        }
+        &__rating {
+          @apply items-center block xl:flex sm:flex md:block;
+
+          .rating-review{
+            @apply text-s leading-[24px] block xl:text-xss xl:leading-[11px] sm:ml-3 md:ml-0 xl:ml-3 ml-0;
+          }
+        }
+      }
+    }
+
+    &.card-categorypage {
+      @apply xl:grid-cols-3;
+
+      .price-discount {
+        @apply text-orange text-base;
+        span {
+          @apply text-default text-themeblack/50 line-through  mr-3.5 font-medium;
+        }        
+      }
+      .card-hover {         
+        background: rgba(58, 58, 58, 0.7);
+        padding: 15px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: -100%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s all ease;       
+      }    
+
+    }
+
+  }
+  .mobile-btn {
+    @apply block pt-2 pb-10 text-center lg:hidden;
+  }
+}
+
+
+.header {
+  .header-top {
+    @apply items-center justify-between lg:pt-6 lg:pb-7 pt-3.3 pb-4 md:flex hidden;
+    .left-menu {
+      @apply flex items-center;
+      .menu-item {
+        @apply lg:mr-14 mr-7;
+        .menu-link {
+          @apply font-semibold lg:text-default text-xss hover:font-bold flex items-center;
+          .link-img {
+            @apply mr-1;
+          }
+        }
+      }
+    }
+    .right-menu {
+      @apply flex items-center;
+      .drop-down-wrap {
+        .dropdown-link {
+          @apply pr-5;
+          &::after {
+            @apply bg-[url('../images/icons/icon-down.svg')] w-[10px] h-[7px] bg-auto ml-2 top-1/2 -translate-y-1/2;
+          }
+        }
+      }
+    }
+  }
+}
