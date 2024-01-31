@@ -1,11 +1,11 @@
 # Online Shopping Platform Sample Code
-This repository comprises HTML/CSS code for an online shopping platform, skillfully crafted using Tailwind CSS. To initiate the project, kindly follow the steps outlined below.
-
+This repository comprises HTML/CSS code for an online shopping platform, skillfully crafted using Tailwind CSS. 
 The code is organized into the following sections:
-
 - Features
 - Explore New and Popular Styles
 - New Arrivals
+To initiate the project, kindly follow the steps outlined below.
+
 
 # Gulp with TailwindCSS
 
